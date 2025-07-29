@@ -1,0 +1,114 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.75in, right=0.75in, top=0.6in, bottom=0.6in]{geometry}
+\usepackage{fontawesome}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\definecolor{primary}{gray}{0}
+\definecolor{secondary}{gray}{0.4}
+\definecolor{highlight}{gray}{0}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\titleformat{\section}{\large\bfseries\color{primary}}{}{0em}{}[\vspace{2pt}\titlerule]
+\titleformat{\subsection}{\bfseries\color{primary}}{}{0em}{}
+
+\begin{document}
+
+%===== Header =====
+\begin{center}
+    {\Huge \textbf{Mohammad Azahruddin Ansari}} \\
+    \vspace{4pt}
+    {\large \textcolor{highlight}{Senior Android Engineer}} \\
+    \vspace{6pt}
+    \small
+    \faMapMarker \hspace{1mm} Varanasi, UP, India \quad
+    \faPhone \hspace{1mm} +91-9511446571 \quad
+    \faEnvelope \hspace{1mm} \href{mailto:azhar17@live.com}{azhar17@live.com} \\
+    \faLinkedin \hspace{1mm} \href{https://www.linkedin.com/in/iamazhar/}{linkedin.com/in/iamazhar} \quad
+    \faGithub \hspace{1mm} \href{https://github.com/AzharCodeWizard}{github.com/AzharCodeWizard} \quad
+    \faMedium \hspace{1mm} \href{https://medium.com/@iam_azhar}{medium.com/@iam\_azhar}
+\end{center}
+
+\vspace{8pt}
+
+%===== Professional Summary =====
+\section*{Professional Summary}
+Versatile and impact-driven \textbf{Senior Android Engineer} with over \textbf{5.6 years} of experience developing high-traffic Android apps across telecom, fintech, and utility domains. Proven track record in leading architecture revamps, delivering robust SDKs, and optimizing performance for apps serving \textbf{500M+ users}. Adept in Kotlin, Jetpack Compose, modular design, and agile practices. Passionate about scalable systems, mentoring, and business-driven engineering.
+
+%===== Skills =====
+\section*{Skills}
+\textbf{Languages \& Frameworks:} Kotlin, Java, Jetpack Compose, React Native \\
+\textbf{Architecture:} MVVM, Clean Architecture, Modularization, Hilt, SOLID Principles \\
+\textbf{Performance \& Debugging:} LeakCanary, Crashlytics, Profiler, ANR \& memory resolution \\
+\textbf{Tooling \& CI/CD:} Git, GitHub/GitLab, Firebase CI/CD, Jenkins, Fastlane \\
+\textbf{Analytics:} Firebase Analytics, Mixpanel, WebEngage, CleverTap \\
+\textbf{Collaboration:} Agile/Scrum, Sprint Planning, Design Reviews, Mentorship \\
+\textbf{Databases:} Room, SQLite, Firebase Realtime DB, Firestore
+
+%===== Experience =====
+\section*{Experience}
+
+\textbf{Senior Software Engineer} \hfill Gurugram, India \\
+\textit{Airtel} \hfill \textcolor{secondary}{Jul 2022 -- Present}
+\begin{itemize}[left=0pt, label=\textbullet, itemsep=4pt]
+    \item Designed and launched the \textbf{Safety Connect SDK} using Kotlin and MVVM, enabling real-time alerts; earned internal innovation awards.
+    \item Integrated \textbf{Google Play Integrity API}, reducing fraud by \textbf{70\%} and boosting app security.
+    \item Migrated app journeys to \textbf{channel-based architecture (BEFE)}; enabled dynamic feature delivery decoupled from app releases.
+    \item Developed multiple features and acquisition journeys using \textbf{Jetpack Compose} with scalable and reusable UI components.
+    \item Reduced release delays by decoupling deployment from release cycles, accelerating go-to-market by \textbf{2x}.
+    \item Mentored \textbf{4+ engineers}, improving delivery velocity by \textbf{30\%} through clean code and best practices.
+    \item Independently delivered scalable modules for \textbf{Mitra, MBOSS, GOAL, ECAF, Airtel Works}, impacting millions of users.
+    \item Contributed to cross-platform efforts (React.js, iOS), enabling unified feature parity across ecosystems.
+\end{itemize}
+
+
+\textbf{Software Development Engineer} \hfill Delhi, India \\
+\textit{Baazi Games} \hfill \textcolor{secondary}{Sep 2021 -- May 2022}
+\begin{itemize}[left=0pt, label=\textbullet, itemsep=4pt]
+    \item Developed \textbf{SpotsX feature from scratch using Jetpack Compose}, delivering a modern and modular UI experience.
+    \item Migrated 70\% of codebase from Java to Kotlin in BalleBaazi app, enhancing stability and maintainability.
+    \item Built features with analytics and secure payment flows, improving user engagement and onboarding completion.
+    \item Led technical sessions and reviews, advancing Android skills across the team.
+\end{itemize}
+
+\textbf{Software Engineer} \hfill Noida, India \\
+\textit{Patch InfoTech Pvt Ltd.} \hfill \textcolor{secondary}{Dec 2020 -- Sep 2021}
+\begin{itemize}[left=0pt, label=\textbullet, itemsep=4pt]
+    \item Developed core modules of \textbf{JioOnline} app under tight deadlines, collaborating across teams.
+    \item Enhanced UX and backend integrations, boosting responsiveness across devices.
+    \item Proactively resolved production issues to ensure high app availability and reliability.
+\end{itemize}
+
+\textbf{Software Engineer} \hfill India \\
+\textit{Nirmal Labs} \hfill \textcolor{secondary}{Oct 2019 -- Dec 2020}
+\begin{itemize}[left=0pt, label=\textbullet, itemsep=4pt]
+    \item Built and deployed \textbf{30+ mini apps} (e.g., Quick Scanner, BharatVPN) reaching thousands of users.
+    \item Diagnosed and fixed critical bugs in live apps using structured logs and crash reports.
+\end{itemize}
+
+
+%===== Key Projects =====
+\section*{Key Projects}
+\textbf{My Ummah} – Islamic lifestyle app with Jetpack Compose UI, prayer times, Qibla, Duas, and Zakat calculator. \\
+\textbf{Quick Scanner} – PDF and image scanner app using OpenCV and Camera2 API. \\
+\textbf{Send It} – WiFi-based offline file sharing app using QR and RoomDB. \\
+\textbf{Boost360} – E-commerce platform that enabled \textbf{35,000+ SMBs} to launch digital storefronts. \\
+\textbf{Plog (COVID Tracker)} – Contact tracing app using Bluetooth proximity + Google Maps SDK. \\
+\textbf{Bharat VPN} – Secure VPN client leveraging OpenVPN with global server support. \\
+\textbf{Dumb Charades (Game)} – Multiplayer guessing game with real-time Firebase backend.
+
+%===== Education =====
+\section*{Education}
+\textbf{Kashi Institute of Technology, Varanasi} \hfill India \\
+B.Tech in Computer Science and Engineering \hfill \textcolor{secondary}{Graduated Jan 2019}
+
+\end{document}
